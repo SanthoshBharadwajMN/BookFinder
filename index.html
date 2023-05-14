@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookFinder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="book-wrapper">
+        <div class="book-search">
+          <h2 class="title">Find your next great read.</h2>
+          <blockquote>
+            Reading is to the mind what exercise is to the body. <br />
+            <cite>- Joseph Addison</cite>
+          </blockquote>
+          <div class="book-search-box">
+            <input type="text" class="search-content" placeholder="Enter a book" id="search-input" />
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <div class="book-result">
+          <h2 class="title">Your search results:</h2>
+          <div id="book">
+            <!-- book item -->
+            <!-- HTML goes here -->
+            <!-- end of book item -->
+          </div>
+        </div>
+
+        <div class="book-details">
+          <button type="button" class="btn description-close-btn" id="description-close-btn">
+            <i class="fas fa-times"></i>
+          </button>
+
+          <div class="book-details-content">
+            <!-- Description Modal HTML goes here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
